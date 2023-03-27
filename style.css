@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+  background-image: url(green\ leaf.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    padding: 2% 8%;
+    position: relative;
+  }
+
+  h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .container h2 span{
+    color: maroon;
+  }
+
+  .wrapper{
+    display: flex;
+  }
+
+  .wrapper div{
+    flex-basis: 6rem;
+    margin-top: 12rem;
+  }
+
+  .wrapper div p{
+    font-size: 2rem;
+    margin-bottom: -0.3rem;
+  }
+
+  .logo img{
+    margin-top: 12rem;
+    margin-left: 1rem;
+    height: 25px;
+    justify-content: space-between;
+  }

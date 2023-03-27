@@ -1,4 +1,4 @@
-var countDownDate = new Date("Oct 11, 2023 00:00:00").getTime();
+var countDownDate = new Date("Nov 27, 2023 00:00:00").getTime();
 
 
 var x = setInterval(function() {
@@ -27,7 +27,10 @@ var x = setInterval(function() {
   
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("days").innerHTML = 00;
+    document.getElementById("hours").innerHTML = 00;
+    document.getElementById("minutes").innerHTML = 00;
+    document.getElementById("seconds").innerHTML = 00;  
   }
 }, 1000);
 
